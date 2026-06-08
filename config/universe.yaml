@@ -1,0 +1,91 @@
+# Universe of tickers grouped by sector / asset class.
+# Add or remove tickers freely – the pipeline will respect these groups.
+
+equities:
+  technology:
+    - AAPL
+    - MSFT
+    - GOOGL
+    - META
+    - NVDA
+    - AMD
+    - INTC
+    - QCOM
+    - AVGO
+    - TXN
+
+  financials:
+    - JPM
+    - BAC
+    - GS
+    - MS
+    - WFC
+    - C
+    - BLK
+    - AXP
+    - USB
+    - TFC
+
+  energy:
+    - XOM
+    - CVX
+    - COP
+    - EOG
+    - SLB
+    - MPC
+    - PSX
+    - VLO
+    - HAL
+    - OXY
+
+  consumer:
+    - AMZN
+    - TSLA
+    - WMT
+    - HD
+    - NKE
+    - SBUX
+    - MCD
+    - TGT
+    - COST
+    - LOW
+
+  healthcare:
+    - JNJ
+    - PFE
+    - MRK
+    - ABBV
+    - LLY
+    - BMY
+    - AMGN
+    - GILD
+    - MDT
+    - ABT
+
+etfs:
+  sector:
+    - XLK   # Technology
+    - XLF   # Financials
+    - XLE   # Energy
+    - XLV   # Health Care
+    - XLY   # Consumer Disc
+    - XLP   # Consumer Staples
+    - XLI   # Industrials
+    - XLB   # Materials
+    - XLU   # Utilities
+    - XLRE  # Real Estate
+
+  broad:
+    - SPY
+    - QQQ
+    - IWM
+    - DIA
+
+commodities:
+  - GLD   # Gold ETF
+  - SLV   # Silver ETF
+  - USO   # Oil ETF
+  - UNG   # Natural Gas ETF
+  - CORN  # Corn ETF
+  - WEAT  # Wheat ETF
+  - DBA   # Agriculture ETF

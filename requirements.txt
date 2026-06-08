@@ -1,0 +1,43 @@
+# ── Data ─────────────────────────────────────────────────────────────────────
+yfinance>=0.2.40
+pandas-datareader>=0.10.0
+alpha_vantage>=2.3.1
+httpx>=0.27.0
+joblib>=1.4.0
+PyYAML>=6.0.1
+
+# ── Core numerics ─────────────────────────────────────────────────────────────
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.13.0
+
+# ── Statistical analysis ──────────────────────────────────────────────────────
+statsmodels>=0.14.2
+pykalman>=0.9.7
+hurst>=0.0.5
+pandas-ta>=0.3.14b0
+
+# ── ML ────────────────────────────────────────────────────────────────────────
+scikit-learn>=1.5.0
+xgboost>=2.1.0
+shap>=0.45.0
+optuna>=3.6.0
+# CPU-only PyTorch (swap for GPU build if needed):
+torch>=2.3.0
+
+# ── Backtesting & simulation ──────────────────────────────────────────────────
+pyfolio-reloaded>=0.9.5
+empyrical>=0.5.5
+numba>=0.59.0
+
+# ── Dashboard & reporting ─────────────────────────────────────────────────────
+streamlit>=1.35.0
+plotly>=5.22.0
+fpdf2>=2.7.9
+
+# ── Dev / quality ─────────────────────────────────────────────────────────────
+pydantic>=2.7.0
+loguru>=0.7.2
+pytest>=8.2.0
+jupyter>=1.0.0
+python-dotenv>=1.0.1
